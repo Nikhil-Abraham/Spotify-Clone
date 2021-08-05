@@ -6,6 +6,7 @@ function SidebarOptions({ title, Icon }) {
     <div className="sidebarOptions">
       {Icon && <Icon className="sidebarOption_icon" style={{ fontSize: 42 }} />}
       {Icon ? <h4>{title}</h4> : <p>{title}</p>}
+      {title ? <span /> : <p>Playlist</p>}
     </div>
   );
 }

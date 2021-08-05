@@ -13,3 +13,9 @@
   height: 70px;
   padding: 10px;
 }
+
+.sidebar_title {
+  font-size: 10px;
+  padding-left: 10px;
+  width: 100%;
+}
